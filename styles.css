@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(252, 253, 253)0%, rgb(233, 245, 245)100%);
+}
+
+.header-container {
+  width: 100%;
+}
+
+.header-menu {
+  background-image: url(./img/coffee1.jpg);
+  background-size: cover; 
+  width: 100%;
+  height: 30rem;
+  position: relative;
+}
+
+.header-items {
+  color: #fff;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+}
+.header-items li:first-child {
+  margin-right: auto;
+}
+
+.header-menu img {
+  width: 80px;
+  height: 80px;
+  margin: 5px 10px;
+}
+
+.header-items .list {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.header-items li:hover {
+   text-decoration: underline;
+   opacity: .7;
+}
+
+.slide {
+  display: none;
+}
+
+.oregon {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.oregon:hover {
+  text-decoration: underline;
+}
+
+.main1 {
+  padding: 30px;
+
+  /* width: 100%; */
+}
+
+.main-title {
+  margin: 5%;
+  padding: 6px;
+  border-left: 6px solid rgb(135, 178, 235);
+}
+.comment {
+  margin-left: 5%;
+  margin-bottom: 30px;
+  width: 80%;
+}
+.comment-second {
+  margin-top: 5px 0;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.cards a {
+  color: black;
+  text-decoration: none;
+}
+
+.card {
+  border: 0px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .4); 
+  text-align: center;
+  display: inline-block;
+  /* width: 300px; */
+}
+.card:hover {
+  box-shadow: 3.5px 3.5px 3.5px rgba(0, 0, 0, .3);
+  transform: translate3d(0, 2px, 0)
+}
+.card-content {
+  display: flex;
+}
+.card-image {
+  width: 40%;
+}  
+.card-image img {
+  width: 100%;
+  height: 120px;
+  vertical-align: bottom;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.card-doc {
+  width: 60%;
+}
+.card-text {
+  font-size: 20px;
+  line-height: 120px;
+  text-align: center;
+}
+
+.book-container {
+  width: 100vw;
+  margin-top: 20px;
+  padding: 30px;
+}
+.books {
+  position: relative;
+  margin: 30px 0;
+  text-align: center;
+  opacity: .7;
+}
+
+.books img {
+  width: 90vw;
+  height: 450px;
+}
+
+.books h2 {
+  position: absolute;
+  left: 7%;
+  bottom: 15%;
+  color: rgb(10, 220, 248);
+}
+
+.books p {
+  position: absolute;
+  left: 7%;
+  bottom: 10%;
+  font-size: 20px;
+  color: rgb(9, 247, 80);
+}
+
+.main2 {
+  padding: 30px;
+}
+.main2 h2 {
+  margin-bottom: 20px;
+}
+
+.main2-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main2-card {
+  width: 20%;
+  margin: 20px;
+}
+
+.main2-card img {
+  width: 100%;
+  height: 80%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .4); 
+}
+.main2-card img:hover {
+  box-shadow: 3.5px 3.5px 3.5px rgba(0, 0, 0, .3);
+  transform: translate3d(0, 1px, 0)
+}
+
+.main2-card a {
+  text-decoration:  none;
+}
+footer {
+  width: 100%;
+  background: rgb(235, 233, 233);
+  padding: 15px 0;
+}
+.footer {
+  margin-top: 30px;
+  display: flex;
+  /* width: 100%; */
+  justify-content: center;
+}
+
+.footer-menu {
+  margin: 50px 80px 30px;
+}
+.footer-menu hr {
+  display: none;
+}
+.footer-menu .angle-down {
+  display: none;
+}
+.footer .link {
+  pointer-events: none;
+}
+.footer div p {
+  color: rgba(0, 0, 0, .8);
+  margin: 15px 0;
+}
+.footer div a {
+  color: rgba(0, 0, 0, .8);
+  text-decoration: none;
+}
+.footer div a:hover {
+  text-decoration-line: underline;
+}
+
+main hr {
+  margin: 50px 0 30px;
+}
+.footer2-line {
+  width: 98%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.footer2 {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px; 
+}
+.footer-list {
+  display: flex;
+  list-style: none;
+}
+
+.footer-list a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+.footer-list a:hover {
+  text-decoration-line: underline;
+  color: var(--color);
+}
+
+small {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  font-size: 50px;
+  opacity: .7;
+}
+.arrow:hover {
+  transform: scale(1.1);
+}
+
